@@ -1,0 +1,66 @@
+section, header, footer{
+    width: 100%;
+}
+
+section{
+    position: relative;
+}
+
+.section_3, .section_4, .section_5{
+    padding: 130px 0;
+    box-sizing: border-box;
+}
+
+/*title 녹색타이틀*/
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.title>a{
+    font-size: 60px;
+    /* color: #5E8B75; */
+    color: #343434;
+    font-family: 'Montserrat';
+    /* font-style: italic; */
+    letter-spacing: -5px;
+    font-weight: 400;
+}
+
+/*---------------viewmore--------------*/
+.viewmore{
+    position: relative;
+    font-size: 18px;
+    opacity: 70%;
+    color: #111;
+}
+
+.more_line{
+    width: 90px;
+    height: 1px;
+    background-color: #111;
+    margin-top: 2px;
+    opacity: 50%;
+}
+
+/*-------------------450------------------*/
+
+@media all and (max-width : 450px){
+    .section_3, .section_4, .section_5{
+        padding: 60px 0;
+    }
+
+    /*title 녹색타이틀*/
+
+    .title>a{
+        font-size: 35px;
+        letter-spacing: -2px;
+    }
+
+    .more_line{
+        width: 72px;
+        height: 1px;
+        margin-top: 2px;
+    }
+
+}

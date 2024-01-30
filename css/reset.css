@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{display: block; width: 100%;}
+
+body{
+    font-family: 'Baskervville', 'Noto Sans KR';
+}
+
+.section_4, .section_2{
+    overflow-x: hidden;
+}
+
